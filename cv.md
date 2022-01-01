@@ -35,6 +35,7 @@ function miltiply($a, $b)
 * Belarusian-Russian University, Engeneer nondestractiv testing
 * HTML Academy
 * JavaScript (JavaScript/Front-end. Stage 0)
+* https://ru.hexlet.io
 
 # Languages
 

@@ -1,12 +1,109 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="./assets/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
 </head>
+
 <body>
-    
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">          
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>          
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <img src="images/avatar.jpg" alt="Avatar" class="section-logo">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Yura Kazyrenko</h1>
+          <h3 class="section-subtitle">Junior Front-End Developer</h3>
+        </div>        
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">
+            Belarus, Minsk
+          </li>
+          <li class="section-item contacts-item">
+            Email: <a href="mailto:yura.mogilev@mail.ru" title="email">yura.mogilev@mail.ru</a>
+          </li>
+          <li class="section-item contacts-item">
+            Github: <a href="https://github.com/yurakozyrenko" title="github">github.com/yurakozyrenko</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          I want to learn a new profession. I want to gain new knowledge. I always try to learn new things.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Web-development:<span> HTML5, CSS3, JavaScript</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+<pre class="pre"><code>function multiply($a, $b) {
+  return $a * $b;
+}</code></pre>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Htmlacademy<span> - HTML, CSS</span>
+          </li>
+          <li class="section-item">
+            Hexlet<span> - JavaScript for beginner</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="section-list">
+          <li class="section-item">
+          </li>          
+        </ul>
+      </section>
+      <section class="section section-education" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>Belarussian-Russian University</p>
+      </section>
+      <section class="section section-english" id="english">
+        <h2 class="section-title">English</h2>
+        <p>A2 - Elementary</p>
+        <h2 class="section-title">Russian</h2>
+        <p>Native</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>© 2022 <a href="https://github.com/yurakozyrenko" class="github nav-link">github.com/yurakozyrenko</a></div>
+      <a href="https://rs.school/js/"><img src="images/rs_school_js.svg" width="86" height="32" alt="RS School"></a>
+    </div>
+  </footer>
 </body>
+
 </html>

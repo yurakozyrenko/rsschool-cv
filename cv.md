@@ -16,3 +16,5 @@ Backend developer with 2+ years of experience in Node.js.
 
 ## English
 **B1**
+
+https://yurakozyrenko.github.io/rsschool-cv/cv

@@ -13,3 +13,6 @@ Backend developer with 2+ years of experience in Node.js.
 ## Education  
 **BRU Mogilev university**  
 *State University | 2008–2012*  
+
+## English
+**B1**
